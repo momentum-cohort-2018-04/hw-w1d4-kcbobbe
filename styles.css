@@ -14,7 +14,7 @@ body{
     color:darkmagenta;
     padding:.5rem;
     font-size: 30px;
-    width:40%;
+    width:50%;
     margin-left:5%;
     font-family: 'Raleway', sans-serif;
 
@@ -107,8 +107,9 @@ h3{
 
 }
 h4{
-    margin-top:0;
+    margin-top:.2rem;
     margin-bottom:0;
+    font-weight:normal;
 }
 
 .title-left{
@@ -203,6 +204,7 @@ h4{
         float:right;
         width:30%;
         text-align:right;
+        font-weight:bold;
     }
 
 }
@@ -213,4 +215,8 @@ h4{
 
 .raleway-font{
     font-family: 'Raleway', sans-serif;
+}
+
+.resume-right{
+    font-weight:bold;
 }
