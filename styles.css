@@ -1,5 +1,4 @@
 body{
-    background-color:#00FFFF;
     color: black;
     margin:0;
     padding:0;
@@ -16,7 +15,8 @@ body{
     margin:auto;
     width:90%;
     text-align:center;
-    background-color:lightgrey;
+    border:1px solid black;
+    /* background-color:lightgrey; */
 }
 
 .other-page-content{
@@ -25,12 +25,13 @@ body{
     width:90%;
     text-align:center;
     /* border-radius:10px; */
-    border:3px solid black;
-    background-color:lightgrey;
+    border:1px solid black;
+    /* background-color:lightgrey; */
 }
 
 .cat-image{
     max-width:50%;
+    border-radius:50%;
 }
 
 nav{
@@ -41,13 +42,18 @@ nav{
 nav li {
     display: inline-block;
     font-size: 20px;
-    padding-left: 20px;
-    padding-right:20px;
+    padding:1rem;
+    margin:0;
+    /* padding-left: 20px;
+    padding-right:20px; */
+    /* background-color:black;
+    border-radius:10px;
+    color:white; */
 }
 
 .project-img{
     width:90%;
-    border:3px solid white;
+    border:1px solid black;
 }
 
 .project-link-list{
@@ -67,7 +73,7 @@ nav li {
     padding:1rem;
     width:90%;
     /* border-radius:10px; */
-    border:3px solid black;
+    border:1px solid black;
     /* background-color:lightgrey; */
 }
 
@@ -100,18 +106,18 @@ h1{
 @media print{}
 @media screen and  (max-width: 768px) {
     body{
-        background-color:White;
+        /* background-color:White; */
     }
 }
 
 @media screen and  (min-width: 768px) and (max-width:992px) {
     body{
-        background-color:lightgrey;
+        /* background-color:lightgrey; */
     }
 }
 @media screen and (min-width: 992px){
     body{
-        background-color: slategray;
+        /* background-color: slategray; */
     }
     /* li{
         float:right;
@@ -141,24 +147,26 @@ h1{
     }
     .project-title{
         float:left;
-        width:50%;
+        width:60%;
         text-align:center;
     }
     .project-img{
         float:right;
-        width:50%;
+        width:35%;
     }
     .project-text{
         float:left;
-        width:50%;
+        width:60%;
+                text-align:center;
+
     }
-    .resume-title-left{
+    .resume-left{
         float:left;
-        width:50%
+        width:30%
     }
-    .contact-info{
+    .resume-right{
         float:right;
-        width:25%;
+        width:30%;
     }
 
 }
