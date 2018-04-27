@@ -3,7 +3,7 @@ body{
     margin:0;
     padding:0;
     font-family: Helvetica, Arial, sans-serif
-
+    
 }
 
 *{
@@ -11,15 +11,19 @@ body{
 }
 
 .name-top{
+    color:darkmagenta;
     padding:.5rem;
-    font-size: 20px;
+    font-size: 30px;
     width:40%;
     margin-left:5%;
     font-family: 'Raleway', sans-serif;
+
 }
+
 
 .home-content{
     margin:auto;
+    padding:1rem;
     width:90%;
     text-align:center;
     border:1px solid black;
@@ -50,6 +54,8 @@ nav{
     font-family: 'Raleway', sans-serif;
     margin:0;
     text-align:center;
+    color:plum;
+
 
 
 }
@@ -68,8 +74,10 @@ nav li {
 }
 
 .project-img{
-    width:90%;
+    /* width:90%; */
     border:1px solid black;
+    width:90%;
+    overflow:scroll;
 }
 
 .project-link-list{
@@ -80,7 +88,7 @@ nav li {
 .project-link-items{
     display: inline-block;
     font-size: 12px;
-    padding-left:20px;
+    /* padding-left:20px; */
     padding-right:20px;
 }
 .resume-content{
@@ -95,6 +103,8 @@ nav li {
 h3{
     margin-top:0;
     margin-bottom:0;
+    color: purple;
+
 }
 h4{
     margin-top:0;
@@ -109,6 +119,7 @@ h4{
 
 h1{
     font-family: 'Raleway', sans-serif;
+
 }
 
 /* h2{
@@ -198,4 +209,8 @@ h4{
 
 .clear-float{
     clear:both;
+}
+
+.raleway-font{
+    font-family: 'Raleway', sans-serif;
 }
