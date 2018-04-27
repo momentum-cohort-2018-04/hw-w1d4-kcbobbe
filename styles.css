@@ -10,6 +10,13 @@ body{
     box-sizing:border-box;
 }
 
+.name-top{
+    padding:.5rem;
+    font-size: 20px;
+    width:40%;
+    margin-left:5%;
+    font-family: 'Raleway', sans-serif;
+}
 
 .home-content{
     margin:auto;
@@ -29,20 +36,29 @@ body{
     /* background-color:lightgrey; */
 }
 
-.cat-image{
-    max-width:50%;
+.katie-img{
+    margin-top:1rem;
+    max-width:40%;
     border-radius:50%;
+    border: 2px solid black;
 }
 
 nav{
     list-style-type:none;
+    /* text-align:center; */
+    /* margin:auto; */
+    font-family: 'Raleway', sans-serif;
+    margin:0;
     text-align:center;
+
+
 }
 
 nav li {
     display: inline-block;
     font-size: 20px;
-    padding:1rem;
+    /* padding-left:1rem; */
+    padding-right:1rem;
     margin:0;
     /* padding-left: 20px;
     padding-right:20px; */
@@ -76,8 +92,6 @@ nav li {
     border:1px solid black;
     /* background-color:lightgrey; */
 }
-
-
 h3{
     margin-top:0;
     margin-bottom:0;
@@ -85,16 +99,16 @@ h3{
 h4{
     margin-top:0;
     margin-bottom:0;
-    color:dark-grey;
 }
 
 .title-left{
     text-align:left;
 }
 
-.name-top{
-    padding:.5rem;
-    font-size: 20px;
+
+
+h1{
+    font-family: 'Raleway', sans-serif;
 }
 
 /* h2{
@@ -134,12 +148,14 @@ h4{
     } */
     nav{
         width:40%;
-        margin:5%;
+        margin-right:5%;
         float:right;
+        text-align:right;
 
     }
     .name-top{
         float:left;
+        text-align:left;
         width:40%;
         background-color:none;
         margin:5%;
