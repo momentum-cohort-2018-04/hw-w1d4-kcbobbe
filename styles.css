@@ -1,0 +1,148 @@
+body{
+    background-color:#00FFFF;
+    color: black;
+    margin:0;
+    padding:0;
+    font-family: Helvetica, Arial, sans-serif
+
+}
+
+*{
+    box-sizing:border-box;
+}
+
+
+.home-content{
+    margin:auto;
+    width:90%;
+    text-align:center;
+    background-color:lightgrey;
+}
+
+.other-page-content{
+    margin:auto;
+    padding:1rem;
+    width:90%;
+    text-align:center;
+    /* border-radius:10px; */
+    border:3px solid black;
+    background-color:lightgrey;
+}
+
+.cat-image{
+    max-width:50%;
+}
+
+nav{
+    list-style-type:none;
+    text-align:center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.project-img{
+    width:90%;
+    border:3px solid white;
+}
+
+.project-link-list{
+    list-style-type:none;
+    text-align:center;
+}
+
+.project-link-items{
+    display: inline-block;
+    font-size: 12px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.resume-content{
+    text-align:left;
+    margin:auto;
+    padding:1rem;
+    width:90%;
+    /* border-radius:10px; */
+    border:3px solid black;
+    background-color:lightgrey;
+}
+
+
+h3{
+    margin-top:.2rem;
+    margin-bottom:.2rem;
+}
+h4{
+    margin-top:0;
+    margin-bottom:0;
+    color:dark-grey;
+}
+
+.title-left{
+    text-align:left;
+}
+
+.name-top{
+    padding:.5rem;
+    font-size: 20px;
+}
+
+h1{
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+}
+
+
+@media print{}
+@media screen and  (max-width: 768px) {
+    body{
+        background-color:White;
+    }
+}
+
+@media screen and  (min-width: 768px) and (max-width:992px) {
+    body{
+        background-color:lightgrey;
+    }
+}
+@media screen and (min-width: 992px){
+    body{
+        background-color: slategray;
+    }
+    /* li{
+        float:right;
+        background-color:white;
+
+    } */
+    nav{
+        width:40%;
+        margin:5%;
+        float:right;
+
+    }
+    .name-top{
+        float:left;
+        width:40%;
+        background-color:none;
+        margin:5%;
+
+    }
+    .cat-image{
+        float:left;
+        width:50%;
+    }
+    .intro-content{
+        float:right;
+        width:50%;
+    }
+  
+
+}
+
+.clear-float{
+    clear:both;
+}
