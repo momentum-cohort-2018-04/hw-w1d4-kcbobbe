@@ -27,26 +27,31 @@ body{
 .home-content{
     margin:auto;
     margin-bottom:1rem;
-    padding:1rem;
+    margin-top:2rem;
+    padding:2rem;
     width:90%;
     text-align:center;
-    border:1px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
     /* background-color:lightgrey; */
 }
 
 .other-page-content{
     margin:auto;
+    margin-bottom:1rem;
+    margin-top:2rem;
     padding:1rem;
     width:90%;
     text-align:center;
     /* border-radius:10px; */
-    border:1px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
     /* background-color:lightgrey; */
 }
 
 .katie-img{
-    margin-top:1rem;
-    max-width:40%;
+    /* margin-top:1rem; */
+    max-width:50%;
     border-radius:50%;
     border: 2px solid black;
 }
@@ -92,13 +97,19 @@ li a{
     text-decoration:none;
 }
 
-    /* padding-left: 20px;
-    padding-right:20px; */
-    /* background-color:black;
-    border-radius:10px;
-    color:white; */
+.language-list{
+    width:100%;
+    margin:0;
+    padding:0;
+}
 
+.language-list li{
+    display:inline-block;
+    font-weight:bold;
+    padding:.2rem;
 
+}
+    
 .project-img{
     /* width:90%; */
     border:1px solid black;
@@ -117,12 +128,18 @@ li a{
     padding-right:20px;
 }
 .resume-content{
-    text-align:left;
     margin:auto;
+    margin-bottom:1rem;
+    margin-top:2rem;
     padding:1rem;
     width:90%;
+    /* text-align:left;
+    margin:auto;
+    padding:1rem;
+    width:90%; */
     /* border-radius:10px; */
-    border:1px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
     /* background-color:lightgrey; */
 }
 h3{
@@ -145,13 +162,13 @@ h4{
 
 h1{
     font-family: 'Raleway', sans-serif;
-
+    margin-top:.5rem;
 }
 
 /* h2{
     margin-top:.5rem;
     margin-bottom:.5rem;
-} */
+} */ */
 
 /* h3{
     margin-top:.5rem;
@@ -206,6 +223,7 @@ h4{
         padding-right:1rem;
         padding-left:1rem;
     }
+    
     .katie-img{
         max-width:300px;
     }
@@ -233,6 +251,17 @@ h4{
         float:left;
         width:60%;
         text-align:center;
+    }
+    .language-list{
+        float:right;
+        width:35%;
+        margin-top:5rem;
+    }
+    .language-list li{
+        display:block;
+        font-weight:bold;
+        padding:.2rem;
+
     }
     .project-img{
         float:right;
