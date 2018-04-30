@@ -14,16 +14,12 @@ body{
     color:#16063A;
     padding:.5rem;
     font-size: 30px;
-    /* max-width:12rem; */
-    /* border: 1px solid black; */
-    /* margin-left:5%; */
     font-family: 'Raleway', sans-serif;
     background-color: #8B7AAE;
     border-top: 1px solid black;
     border-bottom:1px solid black;
 
 }
-
 
 .home-content{
     margin:auto;
@@ -34,7 +30,6 @@ body{
     text-align:center;
     border-top:1px solid black;
     border-bottom:1px solid black;
-    /* background-color:lightgrey; */
 }
 
 .other-page-content{
@@ -44,14 +39,11 @@ body{
     padding:1rem;
     width:90%;
     text-align:center;
-    /* border-radius:10px; */
     border-top:1px solid black;
     border-bottom:1px solid black;
-    /* background-color:lightgrey; */
 }
 
 .katie-img{
-    /* margin-top:1rem; */
     max-width:50%;
     border-radius:50%;
     border: 2px solid black;
@@ -59,39 +51,24 @@ body{
 
 nav{
     list-style-type:none;
-    /* text-align:center; */
-    /* margin:auto; */
     font-family: 'Raleway', sans-serif;
     margin:0;
-    /* padding:0 .2rem 0 .2rem; */
-    /* text-align:center; */
-    /* background-color:plum; */
-    /* text-align:center; */
-    
-
 }
 
 nav ul{
     text-align:center;
     padding:0;
-    
-    /* background-color:grey; */
 }
 
 nav li {
     display: inline-block;
     font-size: 14px;
-    /* padding-left:1rem; */
-    /* padding-right:1rem; */
-    /* padding-left:1rem; */
     padding-top:.2rem;
     padding-bottom:.2rem;
     margin:0 .4rem 0 0;
     border-top:1px solid black;
     border-bottom:1px solid black;
-
     background-color:white;
-    
 }
 
 li a{
@@ -112,7 +89,6 @@ li a{
 }
     
 .project-img{
-    /* width:90%; */
     border:1px solid black;
     width:90%;
 }
@@ -125,7 +101,6 @@ li a{
 .project-link-items{
     display: inline-block;
     font-size: 12px;
-    /* padding-left:20px; */
     padding-right:20px;
 }
 .resume-content{
@@ -134,15 +109,10 @@ li a{
     margin-top:2rem;
     padding:1rem;
     width:90%;
-    /* text-align:left;
-    margin:auto;
-    padding:1rem;
-    width:90%; */
-    /* border-radius:10px; */
     border-top:1px solid black;
     border-bottom:1px solid black;
-    /* background-color:lightgrey; */
 }
+
 h3{
     margin-top:0;
     margin-bottom:0;
@@ -164,28 +134,8 @@ h1{
 }
 
 
-@media print {}
-
-@media screen and  (max-width: 768px) {
-    body{
-        /* background-color:White; */
-    }
-}
-
-@media screen and  (min-width: 768px) and (max-width:992px) {
-    body{
-        /* background-color:lightgrey; */
-    }
-}
 @media screen and (min-width: 992px){
-    body{
-        /* background-color: slategray; */
-    }
-    /* li{
-        float:right;
-        background-color:white;
 
-    } */
     nav{
         width:50%;
         /* margin-top:1.3rem; */
@@ -225,10 +175,7 @@ h1{
         border-bottom:1px solid black;
 
     }
-    .cat-image{
-        float:left;
-        width:50%;
-    }
+
     .intro-content{
         float:right;
         width:50%;
