@@ -2,7 +2,8 @@ body{
     color: black;
     margin:0;
     padding:0;
-    font-family: Helvetica, Arial, sans-serif;   
+    /* font-family: Helvetica, Arial, sans-serif;    */
+    font-family:serif;
 }
 
 *{
@@ -145,9 +146,8 @@ li a{
 h3{
     margin-top:0;
     margin-bottom:0;
-    color:#16063A
-
 }
+
 h4{
     margin-top:.2rem;
     margin-bottom:0;
@@ -158,28 +158,14 @@ h4{
     text-align:left;
 }
 
-
-
 h1{
     font-family: 'Raleway', sans-serif;
     margin-top:.5rem;
 }
 
-/* h2{
-    margin-top:.5rem;
-    margin-bottom:.5rem;
-} */ */
 
-/* h3{
-    margin-top:.5rem;
-    margin-bottom:.5rem;
-}
+@media print {}
 
-h4{
-    margin-top:.5rem;
-    margin-bottom:.5rem; */
-/* } */
-@media print{}
 @media screen and  (max-width: 768px) {
     body{
         /* background-color:White; */
